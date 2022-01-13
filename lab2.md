@@ -53,5 +53,4 @@ Optimizing Remote Running
 ![image info](./lab2img/image3.png)
 
 - Using backticks allow you to run multiple cmds in the same line
-- `cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI
-`
+- `cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI` will copy WhereAmI.java OtherMain.java and run WhereAmI
