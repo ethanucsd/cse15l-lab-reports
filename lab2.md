@@ -48,9 +48,18 @@ class WhereAmI {
  
 - Ssh the file into server/.ssh/authorized_keys
 ![image info](./lab2img/image8.png)
+
 # Optimizing Remote Running
 - Typing `ssh <your username here>@ieng6.ucsd.edu “ls”` will log you into server and run ls
 ![image info](./lab2img/image3.png)
 
 - Using backticks allow you to run multiple cmds in the same line
 - `cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI` will copy WhereAmI.java to OtherMain.java and run WhereAmI
+
+To update WhereAmI on the server in less than 10 keystrokes, this is what I did:
+
+Assuming you have 
+`scp WhereAmI.java cs15lwi22ael@ieng6.ucsd.edu; ssh cs15lwi22ael@ieng6.ucsd.edu "javac WhereAmI.java; java WhereAmI` (my example) already run on the terminal,
+all you need to do is press up arrow and enter (2 strokes).
+
+- Pressing up arrow will bring the last command that you have wrote. This one command will send the WhereAmI file to the server and will compile and run.
