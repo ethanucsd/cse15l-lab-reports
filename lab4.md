@@ -47,4 +47,4 @@ https://github.com/ethanucsd/markdown-parse/blob/main/linkWithParenthesis.md
 Symptom
 --
 ![image info](./lab4img/err3.png)
-For the bug, the program attempted to split the markdown file into lines, so that for each line it would find out if there is a link, and decide to insert it into the list,but with the failure-inducing input, with parenthesis in the name, it did so incorrectly because it tried to do to the first index of the left parenthesis. The symptom was that there was no entries in the list.
+For the bug, the program attempted to split the markdown file into lines, so that for each line it would find out if there is a link, and decide to insert it into the list,but with the failure-inducing input, with parenthesis in the name, it did so incorrectly because it tried to do to the first index of the right parenthesis. The symptom was that there was no entries in the list.
