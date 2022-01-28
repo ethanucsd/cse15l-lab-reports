@@ -3,7 +3,7 @@
 # Bug 1
 Code change diff
 --
-![](2022-01-27-18-17-26.png)
+![](./lab4img/2022-01-27-18-17-26.png)
 
 Test File
 --
@@ -12,7 +12,7 @@ https://github.com/ethanucsd/markdown-parse/blob/main/noEntries.md
 Symptom
 --
 
-![image info](./lab3img/err1.png)
+![image info](./lab4img/err1.png)
 
 Explanation
 --
@@ -21,7 +21,7 @@ For the bug, the original behavior was that it would go through the entire file 
 # Bug 2
 Code change diff
 --
-![](2022-01-27-18-17-26.png)
+![](./lab4img/2022-01-27-18-17-26.png)
 
 Test File
 --
@@ -29,7 +29,7 @@ https://github.com/ethanucsd/markdown-parse/blob/main/brokenRef.md
 
 Symptom
 --
-![](2022-01-27-18-22-08.png)
+![](./lab4img/2022-01-27-18-22-08.png)
 
 Explanation
 --
@@ -38,7 +38,7 @@ For the bug, the original behavior was that it would go through the entire file 
 # Bug 3
 Code change diff
 --
-![](2022-01-27-18-18-11.png)
+![](./lab4img/2022-01-27-18-18-11.png)
 
 Test File
 --
@@ -46,5 +46,5 @@ https://github.com/ethanucsd/markdown-parse/blob/main/linkWithParenthesis.md
 
 Symptom
 --
-![image info](./lab3img/err3.png)
+![image info](./lab4img/err3.png)
 For the bug, the program attempted to split the markdown file into lines, so that for each line it would find out if there is a link, and decide to insert it into the list,but with the failure-inducing input, with parenthesis in the name, it did so incorrectly because it tried to do to the first index of the left parenthesis. The symptom was that there was no entries in the list.
