@@ -7,7 +7,7 @@ Code change diff
 
 Test File
 --
-https://github.com/ethanucsd/markdown-parse/blob/main/noEntries.md
+[noEntries.md](https://github.com/ethanucsd/markdown-parse/blob/main/noEntries.md)
 
 Symptom
 --
@@ -25,7 +25,7 @@ Code change diff
 
 Test File
 --
-https://github.com/ethanucsd/markdown-parse/blob/main/brokenRef.md
+[brokenRef.md](https://github.com/ethanucsd/markdown-parse/blob/main/brokenRef.md)
 
 Symptom
 --
@@ -42,7 +42,7 @@ Code change diff
 
 Test File
 --
-https://github.com/ethanucsd/markdown-parse/blob/main/linkWithParenthesis.md
+[linkWithParenthesis.md](https://github.com/ethanucsd/markdown-parse/blob/main/linkWithParenthesis.md)
 
 Symptom
 --
