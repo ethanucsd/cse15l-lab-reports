@@ -3,8 +3,10 @@
 A link to your markdown-parse repository and a link to the one you reviewed
 --
 
-https://github.com/ethanucsd/cse15l-lab-reports
-https://github.com/yih365/markdown-parse
+[mine](https://github.com/ethanucsd/cse15l-lab-reports)
+
+
+[reviewed](https://github.com/yih365/markdown-parse)
 
 ---
 
