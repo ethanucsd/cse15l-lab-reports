@@ -31,7 +31,8 @@ This file has
 ```md
 [foo](/bar\* "ti\*tle")
 ```
-![](./lab10img/2.png)
+
+![](./lab10img/2.PNG)
 
 My test is incorrect because the expected output should be `[]`.
 
