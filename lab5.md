@@ -11,6 +11,7 @@ What I did was I copied the getLinks and any helper methods of my version of Mar
 ### Describe which implementation is correct, or if you think neither is correct, by showing both actual outputs and indicating what the expected output is.
 
 `test-files/194.md`
+---
 
 This file has
 ```md
@@ -20,15 +21,18 @@ This file has
 ```
 
 ![](./lab10img/1.png)
+
 None of these tests are correct because there should not be anything in the list.
 
 `test-files/22.md`
+---
 
 This file has
 ```md
 [foo](/bar\* "ti\*tle")
 ```
 ![](./lab10img/2.png)
+
 My test is incorrect because the expected output should be `[]`.
 
 ### For the implementation that’s not correct (or choose one if both are incorrect), describe the _bug (the problem in the code). You don’t have to provide a fix, but you should be specific about what is wrong with the program, and show the code that should be fixed.
